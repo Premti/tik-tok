@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react'
+import VideoFooter from './VideoFooter'
 import './Video.css'
 
 function Video(){
@@ -27,6 +28,7 @@ function Video(){
             src="https://www.tiktok.com/@justamum/video/6876677387870915841">
 
             </video>
+            <VideoFooter />
         </div>
     )
 }
