@@ -4,9 +4,7 @@ import Video from './Video.js'
 
 function App() {
   return (
-    <div>
-      Hello
-
+    <div className="app">
       <div className="app_videos">
         <Video />
         <Video />
