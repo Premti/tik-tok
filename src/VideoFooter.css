@@ -1,0 +1,19 @@
+.videoFooter {
+    position: relative;
+    bottom: 50px;
+    display: flex
+}
+
+.videoFooter_record {
+    animation: spinTheRecord infinite 5s linear;
+    height: 50px;
+}
+
+@keyframes spinTheRecord {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
