@@ -1,8 +1,9 @@
 .videoFooter {
     position: relative;
-    bottom: 250px;
+    bottom: 150px;
     margin-left: 40px;
     display: flex;
+    margin-right: 40px;
 }
 
 .videoFooter_text {
@@ -23,7 +24,7 @@
     height: 50px;
     position: absolute;
     bottom: 30px;
-    right: 20px;
+    right: 0px;
     /* filter: invert(1) */
 }
 
